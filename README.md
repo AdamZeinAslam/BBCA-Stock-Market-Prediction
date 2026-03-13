@@ -29,6 +29,9 @@ Example of dataset structure:
 | 7600 | 7675 | 7500 | 7500 | 202433406 |
 | 7700 | 7775 | 7625 | 7625 | 170666703 |
 
+
+**Dataset:**
+(https://www.kaggle.com/datasets/adamzeinaslam/bbca-stock-market)
 ---
 
 ## Methodology
