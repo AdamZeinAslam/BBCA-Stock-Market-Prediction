@@ -31,7 +31,8 @@ Example of dataset structure:
 
 
 **Dataset:**
-(https://www.kaggle.com/datasets/adamzeinaslam/bbca-stock-market)
+
+https://www.kaggle.com/datasets/adamzeinaslam/bbca-stock-market
 ---
 
 ## Methodology
