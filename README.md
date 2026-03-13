@@ -60,22 +60,15 @@ This allows the model to learn from historical data and evaluate performance on 
 
 A custom function is used to transform the dataset into **supervised learning format** using a sliding window approach.
 
-Example:
-
-
 This allows the LSTM model to learn temporal dependencies in stock price movements.
 
 ---
 
 ### 4. LSTM Model Architecture
 
-The prediction model uses a **Long Short-Term Memory (LSTM)** neural network implemented with **Keras/TensorFlow**.
+The prediction model uses a **Long Short-Term Memory (LSTM)** neural network implemented with Keras/TensorFlow.
 
-Model architecture:
-
-
-
-LSTM is chosen because it is well suited for **time-series forecasting problems** and can capture long-term dependencies in sequential data.
+LSTM is chosen because it is well suited for time-series forecasting problems and can capture long-term dependencies in sequential data.
 
 ---
 
@@ -97,8 +90,8 @@ The training process minimizes prediction error between predicted and actual sto
 The model performance is evaluated using **Root Mean Squared Error (RMSE)**.
 
 Results:
-Train Score: 0.05 RMSE
-Test Score: 0.05 RMSE
+- **Train Score: 0.05 RMSE**
+- **Test Score: 0.05 RMSE**
 
 
 A lower RMSE indicates better prediction accuracy.
@@ -127,26 +120,12 @@ These plots help evaluate how well the model captures the trend of the stock pri
 
 ---
 
-## Project Structure
-bbca-stock-prediction
-│
-├── data
-│ └── bbca_stock_data.csv
-│
-├── notebook
-│ └── bbca_lstm_prediction.ipynb
-│
-├── README.md
-│
-└── requirements.txt
-
 ## Potential Improvements
 
 Future improvements for this project include:
 
 - Using **more historical data**
 - Adding **technical indicators** (RSI, MACD, Moving Average)
-- Experimenting with **GRU or Transformer models**
 - Building a **trading strategy simulation**
 - Evaluating model performance with additional metrics
 
